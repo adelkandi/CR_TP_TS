@@ -1,0 +1,67 @@
+
+f0 = 1;
+t =  0:0.02:2;
+
+y0 = cos(2*pi*f0*t);
+subplot(5,1,1)
+plot(t,y0)
+title('Signal y0(t)')
+grid on
+xlabel('temps(s)')
+ylabel('amplitude')
+
+f1=5;
+y1 = cos(2*pi*f1*t);
+subplot(5,2,1)
+plot(t,y1)
+title('Signal y1(t)')
+grid on
+xlabel('temps(s)')
+ylabel('amplitude')
+
+f2 = 11.5;
+y2 = cos(2*pi*f0*t);
+subplot(5,2,2)
+plot(t,y2)
+title('Signal y2(t)')
+grid on
+xlabel('temps(s)')
+ylabel('amplitude')
+
+f3=24.8;
+y3 = cos(2*pi*f0*t);
+subplot(5,3,1)
+plot(t,y3)
+title('Signal y3(t)')
+grid on
+xlabel('temps(s)')
+ylabel('amplitude')
+
+f4 = 38.5;
+y4 = cos(2*pi*f0*t);
+
+plot(t,y4)
+title('Signal y4(t)')
+grid on
+xlabel('temps(s)')
+ylabel('amplitude')
+
+f4 = 45;
+y4 = cos(2*pi*f0*t);
+subplot(5,3,2)
+plot(t,y4)
+title('Signal y4(t)')
+grid on
+xlabel('temps(s)')
+ylabel('amplitude')
+
+f5 = 55 ;
+y5 = cos(2*pi*f0*t);
+subplot(5,3,3)
+plot(t,y5)
+title('Signal y5(t)')
+grid on
+xlabel('temps(s)')
+ylabel('amplitude')
+
+ 
