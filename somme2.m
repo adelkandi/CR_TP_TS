@@ -3,7 +3,7 @@ clc
 clear all;
 close all;
 
-% Signal somme avec f1 = 2Hz; et la phase phil=pi/4
+% Signal somme x(t) avec f1 = 2Hz; et la phase phil=pi/4
 f1 = 2.0;
 phil = pi/4;
 t = -9:0.01:10;
@@ -17,9 +17,9 @@ xlabel('temps');
 ylabel('amplitude');
 title('la somme');
 grid on
-hold on %Utilisant la fonction hold pour faire 2 graph à la méme figure 
+hold on %Utilisant la fonction hold pour faire 2 graph Ã  la mÃ©me figure 
 
-% signal somme avec amplitude A=22/9 ; et phi101= -pi/2
+% signal somme x(t) avec amplitude A=22/9 ; et phi101= -pi/2
 
 A3 = 22/9;  % amplitude A2 on la changer pour A3 = 22/9 
 phil01 = -pi/2;
