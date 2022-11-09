@@ -1,4 +1,6 @@
-%Le Signal y(t) avec différents fréquence
+%Le Signal y(t) avec diffÃ©rents frÃ©quence
+clc
+clear all
 t =  0:0.02:2;
 % y(t) avec f=5HZ
 f1=5;
