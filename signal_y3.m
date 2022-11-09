@@ -1,4 +1,6 @@
-% Le signal y(t) avec différents fréquence 
+% Le signal y(t) avec diffÃ©rents frÃ©quence 
+clc 
+clear all
 f0 = 1;
 t =  0:0.05:2;
 % Signal y(t)
