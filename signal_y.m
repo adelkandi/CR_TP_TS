@@ -1,4 +1,6 @@
 % Signal y(t)
+clc 
+clear all 
 
 f0 = 1;
 t =  0:0.02:2;
