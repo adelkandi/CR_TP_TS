@@ -1,4 +1,4 @@
-%Signal rectangulaire périodique :
+%Signal rectangulaire pï¿½riodique :
 
 clc
 clear all
@@ -10,7 +10,7 @@ x = square(pi*t+1.5);
 plot(t,x);
 axis([-8,8 -2,2]);
 grid on 
-xlabel('temps');
+xlabel('temps(s)');
 ylabel('x(t)');
 title('signal rect(t)');
 
