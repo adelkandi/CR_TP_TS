@@ -10,7 +10,7 @@ x = square(pi*t+1.5);
 plot(t,x);
 axis([-8,8 -2,2]);
 grid on 
-xlabel('temps(s)');
+xlabel('temps');
 ylabel('x(t)');
 title('signal rect(t)');
 
