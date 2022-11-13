@@ -7,13 +7,14 @@ clear all
 
 t=-6:0.001:6;
  
-v = pi*t+1.5;  % il montre  v = t-1
-v1= square(v); % Ce pour faire x2 = (t-1)^2 
+x1 = pi*t+1.5;  % il montre  x1 = t-1
+x2= square(x1); % Ce pour faire x2 = (t-1)^2 
 
-x = -square(v1); % Ce represente x(t)=rect(t-1)^2 
+x3 = -square(x2); % Ce représente x(t)=rect(t-1)^2 
 
-
-w = v1 - x;
+w = x2 - x3;
+w(w<0)=-1;   %Initialiser l'amplitude A_min=-1
+w(w>0)=1;    %Initialiser l'amplitude A_max=1
 
 % plot w(t) = x(t)-(x(t-1)^2)
 plot(t,w);

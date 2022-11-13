@@ -1,6 +1,6 @@
 % Signal y(t)
 clc 
-clear all 
+clear all
 
 f0 = 1;
 t =  0:0.02:2;
@@ -12,4 +12,5 @@ title('Signal y(t)')
 grid on
 xlabel('temps(s)')
 ylabel('amplitude')
+
 

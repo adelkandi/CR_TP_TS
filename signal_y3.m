@@ -1,4 +1,4 @@
-% Le signal y(t) avec différents pas
+% Le signal y(t) avec différents pas  
 clc 
 clear all
 
@@ -19,7 +19,7 @@ ylabel('amplitude')
 
 t =  0:0.02:2;
 
-% plot y(t)
+
 y = cos(2*pi*f0*t);
 subplot(2,1,2);
 plot(t,y,'r')
@@ -27,3 +27,6 @@ title('Signal y(t) avec pas = 0.02s')
 grid on
 xlabel('temps(s)')
 ylabel('amplitude')
+
+
+

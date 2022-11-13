@@ -1,4 +1,3 @@
-
 clc
 clear all;
 close all;
@@ -17,7 +16,7 @@ xlabel('temps(s)');
 ylabel('amplitude');
 title('la somme');
 grid on 
-hold on %Utilisant la fonction hold pour faire 2 graphique à la méme figure 
+hold on %Utilisant la fonction hold pour faire 2 graphique Ã  la mÃ©me figure 
 
 % signal somme avec amplitude A=22/9 ; et phi101= -pi/2
 

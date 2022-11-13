@@ -5,7 +5,7 @@ clear all
 t =  0:0.02:2;
 % y(t) avec f=5HZ
 f1=5;
-y1 = cos(2*pi*f1*t);
+y1 = cos(2*pi*f1*t); 
 subplot(7,1,2)
 plot(t,y1,'k')
 title('Signal y1(t)')
